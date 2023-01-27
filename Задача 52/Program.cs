@@ -14,8 +14,8 @@ int[,] FillArrayWithRandom(int[,] matrix, int m, int n)
     {
         for (int j = 0; j < n; j++)
         {
-            matrix[i, j] = new Random().Next(0, 11);
-            Console.Write(matrix[i, j] + "\t");
+            matrix[i, j] = new Random().Next(0, 12);
+            Console.Write(matrix[i, j] + "\n");
         }
         Console.WriteLine();
     }
